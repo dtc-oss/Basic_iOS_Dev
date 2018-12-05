@@ -6,9 +6,14 @@ let variabelKonstan = "Ini tidak bisa dirubah"    // deklarasi variable yg tidak
 
 // Deklarasi Variable dengan tipe data
 
-// String
+// String = Tipe Data String
 var string_1 = "Ini String"           // deklarasi variable yg tipe data berdasarkan isinya
-var string_2: String                  // deklarasi variable dengan menentukan tipe data nya
-var string_3: String?                 // sama dgn sebelumnya, namun menggunakan Optional variable (is Null)
-var string_4: String!                 // variable bersifat 'wrap' / non Optional (not Null)
-var string_5: String = "Ini String"   // varible dgn tipe data dan memiliki nilai default
+var string_2: String?                 // Deklarasi variable Optional (is Null), ketika akan digunakan harus di 'wrap'
+var string_3: String!                 // variable bersifat 'wrap' / non Optional (not Null)
+var string_4: String = "Ini String"   // varible dgn tipe data dan memiliki nilai default
+
+// Int = Tipe Data Integer
+var int_1 = "Ini Integer"           // deklarasi variable yg tipe data berdasarkan isinya
+var int_2: String?                  // Deklarasi variable Optional (is Null), ketika akan digunakan harus di 'wrap'
+var int_3: String!                  // variable bersifat 'wrap' / non Optional (not Null)
+var int_4: String = "Ini Integer"   // varible dgn tipe data dan memiliki nilai default
